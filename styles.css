@@ -1,0 +1,15 @@
+body {
+  background-color: powderblue;
+}
+p {
+  font-family: xkcd-Regular;
+  font-weight: 300;
+}
+a {
+  font-family: xkcd-Regular;
+  font-weight: 500;
+}
+h1 {
+  font-family: xkcd-Regular;
+  font-weight: 900;
+}
