@@ -4,15 +4,15 @@
 }
 
 body {
-  background-color: powderblue;
+  background-color: #aaccff;
 }
 p {
   font-family: xkcd;
-  font-weight: 300;
+  font-weight: 200;
 }
 a {
   font-family: xkcd;
-  font-weight: 500;
+  font-weight: 400;
 }
 h1 {
   font-family: xkcd;
