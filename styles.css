@@ -1,15 +1,20 @@
+@font-face
+    font-family: xkcd;
+    src: url("path/xkcd-Regular.otf") format("opentype");
+}
+
 body {
   background-color: powderblue;
 }
 p {
-  font-family: xkcd-Regular.otf format("opentype");
+  font-family: xkcd;
   font-weight: 300;
 }
 a {
-  font-family: xkcd-Regular.otf format("opentype");
+  font-family: xkcd;
   font-weight: 500;
 }
 h1 {
-  font-family: xkcd-Regular.otf format("opentype");
+  font-family: xkcd;
   font-weight: 900;
 }
