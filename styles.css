@@ -3,8 +3,8 @@
     src: url("path/xkcd-Regular.otf") format("opentype");
 }
 
-html {
-  background-color: lightblue;
+html,body {
+  background-color: #acf;
 }
 p {
   font-family: xkcd;
