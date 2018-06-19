@@ -2,14 +2,14 @@ body {
   background-color: powderblue;
 }
 p {
-  font-family: xkcd-Regular;
+  font-family: xkcd-Regular.otf format("opentype");;
   font-weight: 300;
 }
 a {
-  font-family: xkcd-Regular;
+  font-family: xkcd-Regular.otf format("opentype");;
   font-weight: 500;
 }
 h1 {
-  font-family: xkcd-Regular;
+  font-family: xkcd-Regular.otf format("opentype");;
   font-weight: 900;
 }
