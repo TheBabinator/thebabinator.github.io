@@ -3,7 +3,7 @@
     src: url("path/xkcd-Regular.otf") format("opentype");
 }
 
-body {
+html {
   background-color: lightblue;
 }
 p {
