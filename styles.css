@@ -17,16 +17,16 @@ p {
 a {
   font-family: xkcd;
   font-weight: 400;
-  color: orange;
+  color: brown;
 }
 /* unvisited link */
 a:link {
-  color: orange;
+  color: brown;
 }
 
 /* visited link */
 a:visited {
-  color: orange;
+  color: brown;
 }
 
 /* mouse over link */
@@ -36,7 +36,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: red;
+  color: salmon;
 }
 h1 {
   font-family: xkcd;
