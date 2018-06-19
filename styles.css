@@ -9,12 +9,34 @@ body {
 p {
   font-family: xkcd;
   font-weight: 200;
+  color: black;
 }
 a {
   font-family: xkcd;
   font-weight: 400;
+  color: orange;
+}
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+a:hover {
+  color: crimson;
+}
+
+/* selected link */
+a:active {
+  color: red;
 }
 h1 {
   font-family: xkcd;
   font-weight: 900;
+  color: crimson;
 }
