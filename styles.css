@@ -1,6 +1,6 @@
 @font-face
     font-family: 'xkcd';
-    src: url("xkcd-Regular.otf") format("opentype");
+    src: url("xkcd.otf") format("otf");
 }
 
 body:after { display: block; position: absolute; width: 1px; height: 100%; top: 0px; left: 0px; }
