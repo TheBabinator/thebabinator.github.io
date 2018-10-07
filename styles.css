@@ -1,5 +1,5 @@
 @font-face
-    font-family: "xkcd";
+    font-family: 'xkcd';
     src: url("xkcd-Regular.otf") format("opentype");
 }
 
@@ -9,13 +9,12 @@ html,body {
   background-color: #acf;
   attributes: "";
 }
-p {
-  font-family: xkcd;
+* {
+  font-family: 'xkcd';
   font-weight: 200;
   color: black;
 }
 a {
-  font-family: xkcd;
   font-weight: 400;
   color: brown;
 }
@@ -39,7 +38,6 @@ a:active {
   color: salmon;
 }
 h1 {
-  font-family: xkcd;
   font-weight: 900;
   color: crimson;
 }
