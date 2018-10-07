@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1538903024,
+	"version": 1538914789,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -22,6 +22,11 @@
 		"images/sprite6-sheet0.png",
 		"images/1block-sheet0.png",
 		"images/cursorfollower-sheet0.png",
+		"images/scrapmine-sheet0.png",
+		"media/pew.ogg",
+		"media/destroy.ogg",
+		"media/place.ogg",
+		"media/death.ogg",
 		"media/game.ogg",
 		"media/menu.ogg",
 		"icon-16.png",
