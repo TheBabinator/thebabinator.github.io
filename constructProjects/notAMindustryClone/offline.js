@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1538847516,
+	"version": 1538903024,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -11,7 +11,7 @@
 		"images/playerindicator-sheet0.png",
 		"images/playerbullet-sheet0.png",
 		"images/stoneblock.png",
-		"images/tiledbackground.png",
+		"images/grassblock.png",
 		"images/playerspawn-sheet0.png",
 		"images/smallimpact-sheet0.png",
 		"images/bigimpact-sheet0.png",
@@ -20,6 +20,8 @@
 		"images/core-sheet0.png",
 		"images/spritefont.png",
 		"images/sprite6-sheet0.png",
+		"images/1block-sheet0.png",
+		"images/cursorfollower-sheet0.png",
 		"media/game.ogg",
 		"media/menu.ogg",
 		"icon-16.png",
