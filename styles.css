@@ -31,6 +31,10 @@ h1 {
 .icon {
   font-size: 64px;
 }
+.normallink {
+  text-decoration: underline;
+  color: aqua;
+}
 
 /* accordion ya ya */
 .middle {
