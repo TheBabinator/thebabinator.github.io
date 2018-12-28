@@ -100,6 +100,10 @@ h1 {
 .smenu a:hover:before {
   opacity: 1;
 }
-.item:hover .smenu{
-  max-height: 10em;
+.item:hover .smenu {
+  max-height: 20em;
+}
+a i {
+  margin-right: 5px;
+  margin-left: 5px;
 }
