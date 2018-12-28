@@ -1,43 +1,101 @@
-@font-face
-    font-family: 'xkcd';
-    src: url("xkcd.otf") format("otf");
-}
-
 body:after { display: block; position: absolute; width: 1px; height: 100%; top: 0px; left: 0px; }
 
 html,body {
-  background-color: #acf;
-  attributes: "";
+  background-color: #112;
+  overflow: hidden;
 }
+
 * {
-  font-family: 'xkcd';
-  font-weight: 200;
-  color: black;
-}
-a {
-  font-weight: 400;
-  color: brown;
-}
-/* unvisited link */
-a:link {
-  color: brown;
-}
+  font-family: sans-serif;
+  color: white;
 
-/* visited link */
-a:visited {
-  color: brown;
-}
-
-/* mouse over link */
-a:hover {
-  color: crimson;
-}
-
-/* selected link */
-a:active {
-  color: salmon;
+  /* accordion ya ya */
+  list-style: none;
+  text-decoration: none;
 }
 h1 {
   font-weight: 900;
-  color: crimson;
+  font-size: 32px;
+  color: #db1749;
+}
+.align-centre {
+  text-align: center;
+  margin: 32px 0;
+}
+.align-bottom {
+  position: fixed;
+  text-align: center;
+  width: 100%; /* this is SO gay */
+  bottom: 32px;
+}
+.icon {
+  font-size: 64px;
+}
+
+/* accordion ya ya */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.item {
+    border-top: 10px solid #b91940;
+    overflow: hidden;
+}
+.btn {
+    display: block;
+    padding: 16px 20px;
+    background: #db1749;
+    color: white;
+    position: relative;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #db1749;
+  left: 20px;
+  bottom: -7px;
+  transform: rotate(45deg);
+}
+.btn i{
+  margin-right: 10px;
+}
+.smenu {
+  background: #333;
+  overflow: hidden;
+  transition: 0.9s;
+  max-height: 0em;
+}
+.smenu a {
+  display: block;
+  padding: 16px;
+  color: white;
+  font-size: 14px;
+  margin: 4px 0;
+  position: relative;
+}
+.smenu a:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 70%;
+  background: #db1749;
+  left: 0;
+  top: 15%;
+  transition: 0.3s;
+  opacity: 0;
+}
+.smenu a:hover:before {
+  opacity: 1;
+}
+.item:hover .smenu{
+  max-height: 10em;
 }
