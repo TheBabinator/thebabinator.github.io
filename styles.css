@@ -113,7 +113,7 @@ canvas {
 .smenu a:hover:before {
   opacity: 1;
 }
-.item:hover .smenu {
+.item:target .smenu {
   max-height: 20em;
 }
 a i {
