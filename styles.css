@@ -1,122 +1,61 @@
-body:after { display: block; position: absolute; width: 1px; height: 100%; top: 0px; left: 0px; }
-
-html,body {
-  background-color: #112;
-  overflow: hidden;
+@font-face {
+    font-family: "Varela Round";
+    src: url("assets/font//VarelaRound-Regular.ttf");
 }
 
-* {
-  font-family: sans-serif;
-  color: white;
-
-  /* accordion ya ya */
-  list-style: none;
-  text-decoration: none;
+body {
+    background-color: #060606;
+    background-image: url("assets/image/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 600px;
+    background-position: center top;
+    background-attachment: fixed;
+    margin: 0;
 }
+
 h1 {
-  font-weight: 900;
-  font-size: 32px;
-  color: #db1749;
-}
-.align-centre {
-  text-align: center;
-  margin: 32px 0;
-}
-.align-bottom {
-  position: fixed;
-  text-align: center;
-  width: 100%; /* this is SO gay */
-  bottom: 32px;
-}
-.icon {
-  font-size: 64px;
-}
-.normallink {
-  text-decoration: underline;
-  color: aqua;
+    font-family: "Varela Round";
+    font-size: 64px;
+    color: #aa00ee;
+    text-shadow: 3px 3px 4px #550077;
 }
 
-canvas {
-    padding: 0;
-    margin: auto;
-    display: block;
-    width: 800px;
-    height: 600px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+h2 {
+    font-family: "Varela Round";
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #aaaaaa;
 }
 
-/* accordion ya ya */
-.middle {
+.align-vertical {
     position: absolute;
+    margin: 0;
+    width: 100%;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-.menu {
-    width: 300px;
-    border-radius: 8px;
-    overflow: hidden;
+
+.align-right {
+    margin: 0;
+    padding-right: 50px;
+    text-align: right;
 }
-.item {
-    border-top: 10px solid #b91940;
-    overflow: hidden;
+
+.left {
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 50%;
 }
-.btn {
-    display: block;
-    padding: 16px 20px;
-    background: #db1749;
-    color: white;
+
+.window {
+    height: 600px;
     position: relative;
 }
-.btn:before {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background: #db1749;
-  left: 20px;
-  bottom: -7px;
-  transform: rotate(45deg);
-}
-.btn i{
-  margin-right: 10px;
-}
-.smenu {
-  background: #333;
-  overflow: hidden;
-  transition: 0.9s;
-  max-height: 0em;
-}
-.smenu a {
-  display: block;
-  padding: 16px;
-  color: white;
-  font-size: 14px;
-  margin: 4px 0;
-  position: relative;
-}
-.smenu a:before {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 70%;
-  background: #db1749;
-  left: 0;
-  top: 15%;
-  transition: 0.3s;
-  opacity: 0;
-}
-.smenu a:hover:before {
-  opacity: 1;
-}
-.item:target .smenu {
-  max-height: 20em;
-}
-a i {
-  margin-right: 5px;
-  margin-left: 5px;
+
+.main {
+    background-color: #dddddd;
+    padding: 50 25 50 25;
 }
