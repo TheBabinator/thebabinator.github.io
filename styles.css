@@ -33,18 +33,18 @@ h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 32px;
-    color: #000000;
+    color: #ffffff;
 }
 
 p {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 
 a {
-    color: #000000;
+    color: #bb55ee;
 }
 
 .align-vertical {
@@ -78,6 +78,6 @@ a {
 
 .main {
     margin: 0;
-    background-color: #dddddd;
+    background-color: #222222;
     padding: 40px 40px 40px 40px;
 }
