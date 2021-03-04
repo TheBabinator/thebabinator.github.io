@@ -3,6 +3,10 @@
     src: url("assets/font//VarelaRound-Regular.ttf");
 }
 
+* {
+    font-family: "Varela Round";
+}
+
 body {
     background-color: #060606;
     background-image: url("assets/image/background.png");
@@ -14,17 +18,33 @@ body {
 }
 
 h1 {
-    font-family: "Varela Round";
     font-size: 64px;
     color: #aa00ee;
     text-shadow: 3px 3px 4px #550077;
 }
 
 h2 {
-    font-family: "Varela Round";
     font-size: 32px;
     color: #ffffff;
     text-shadow: 1px 1px 2px #aaaaaa;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    color: #000000;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+
+a {
+    color: #000000;
 }
 
 .align-vertical {
@@ -51,11 +71,13 @@ h2 {
 }
 
 .window {
+    margin: 0;
     height: 600px;
     position: relative;
 }
 
 .main {
+    margin: 0;
     background-color: #dddddd;
-    padding: 50 25 50 25;
+    padding: 40px 40px 40px 40px;
 }
